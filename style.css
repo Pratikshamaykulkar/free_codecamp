@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/images/surveyimg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #dfdad2;
+    font-size: 1.1em;
+}
+.heading{
+   color: #8d3d4a; 
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#head{
+    font-size: 1.8em;
+    
+}
+#subheading{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+
+}
+ form{
+    background-color: hsla(211, 60%, 16%, 0.702);
+    padding: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+} 
+form .box{
+width: 98.5%;
+height: 2.8em;
+position: relative;
+bottom: 10px;
+border: 0;
+border-radius: 5px;
+}
+#option select{
+width: 98.5%;
+height: 2.8em;
+position: relative;
+bottom: 10px;
+border: 0;
+border-radius: 5px;
+color: #777;
+font-size: smaller;
+
+}
+#option1 select{
+      width: 98.5%;  
+     height: 2.8em; 
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: #777;
+    font-size: smaller;
+    
+    
+    }
+#texthead textarea{
+width: 98.5%;
+height: 125px;
+position: relative;
+border: none;
+
+}
+ 
+ button{
+    background-color: #8d3d4a;;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: aliceblue;
+
+ } 
+ textarea::placeholder{
+    font-size: 1.4em;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    width: 70%;
+ }
+ 
+ input::placeholder{
+    font-size: 1.1em;
+    position: relative;
+    left: 10px;
+    width: 50%;
+    font-weight: 500;
+ }
